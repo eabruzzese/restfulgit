@@ -6,4 +6,4 @@ cover
 /dist
 MANIFEST
 ENV/
-config.py
+restfulgit/config.py
