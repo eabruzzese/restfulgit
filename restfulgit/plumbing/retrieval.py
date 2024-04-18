@@ -1,7 +1,8 @@
 # coding=utf-8
 
 
-from flask import current_app, safe_join
+from flask import current_app
+from werkzeug.utils import safe_join
 from werkzeug.exceptions import NotFound
 from pygit2 import Repository, GIT_OBJ_COMMIT, GIT_OBJ_BLOB, GIT_OBJ_TREE, GIT_OBJ_TAG, GitError
 

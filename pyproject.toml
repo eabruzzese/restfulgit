@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "restfulgit"
+version = "0.1.1"
+description = "A restful interface for accessing data from Git repositories"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+pygit2 = "^1.14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
