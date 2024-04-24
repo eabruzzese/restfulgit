@@ -89,9 +89,9 @@ def _send_transient_file_as_attachment(source_filename_or_fp, attachment_filenam
         source_filename_or_fp,
         mimetype=mimetype,
         as_attachment=True,
-        attachment_filename=attachment_filename,
-        add_etags=False,
-        cache_timeout=0,
+        download_name=attachment_filename,
+        etag=False,
+        max_age=0,
     )
 
 
